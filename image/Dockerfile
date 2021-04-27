@@ -59,3 +59,5 @@ EXPOSE 389 636
 
 # Put ldap config and database dir in a volume to persist data.
 # VOLUME /etc/ldap/slapd.d /var/lib/ldap
+
+VOLUME ["/var/lib/ldap", "/etc/ldap"]
