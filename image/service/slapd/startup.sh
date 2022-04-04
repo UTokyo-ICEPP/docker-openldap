@@ -547,7 +547,7 @@ EOF
 fi
 
 ln -sf ${CONTAINER_SERVICE_DIR}/slapd/assets/.ldaprc $HOME/.ldaprc
-ln -sf ${CONTAINER_SERVICE_DIR}/slapd/assets/ldap.conf /etc/ldap/ldap.conf
+#ln -sf ${CONTAINER_SERVICE_DIR}/slapd/assets/ldap.conf /etc/ldap/ldap.conf
 
 # force OpenLDAP to listen on all interfaces
 # We need to make sure that /etc/hosts continues to include the
